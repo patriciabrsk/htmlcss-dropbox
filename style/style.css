@@ -75,3 +75,8 @@ section#jumbotron h1 {
     font-size: 4rem;
 }
 
+section#business .container {
+    max-width: 900px;
+    padding-top: 200px;
+}
+
