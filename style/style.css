@@ -5,8 +5,66 @@
     padding: 0;
 }
 
-/* .clearfix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
-} */
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height: 80px;
+    line-height: 80px;
+    background-color: rgb(233, 252, 197);
+}
+
+header img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 95%;
+    max-width: 1600px;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.navbar {
+    margin-left: 20px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    border-style: none;
+    padding: 6px 15px;
+    
+}
+
+section#jumbotron {
+    background-color: #b3d0e7;
+    min-height: 600px;
+
+}
+
