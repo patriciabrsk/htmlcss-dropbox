@@ -76,12 +76,20 @@ section#jumbotron h1 {
     font-weight: 700;
 }
 
-section#jumbotron .jumbo-content {
+section#jumbotron .text-wrapper {
     padding-top: 45px;
 }
 
+section#jumbotron .btn {
+    margin-top: 20px;
+}
+
 section#jumbotron img {
-    width: 600px;
+    width: 900px;
+}
+
+section#business {
+    height: 900px;
 }
 
 section#business .container {
@@ -89,6 +97,11 @@ section#business .container {
     padding-top: 200px;
 }
 
-section#jumbotron .btn {
-    margin-top: 20px;
+section#business .title {
+    font-size: 2.5rem;
 }
+
+.input-radio {
+    margin-top: 60px;
+}
+
