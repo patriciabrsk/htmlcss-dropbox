@@ -149,7 +149,12 @@ section#business .title {
 }
 
 section#business div.input-radio {
-    padding-top: 50px ;
+    padding-top: 55px;
+    margin-right: 20px;
+}
+
+section#business label {
+    padding-right: 20px;
 }
 
 div.card {
@@ -224,5 +229,8 @@ section#partner {
     margin: 30px 0 40px;
 }
 
+section#center {
+    height: 500px;
+}
 
 
