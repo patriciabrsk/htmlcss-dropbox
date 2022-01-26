@@ -67,9 +67,9 @@ a:hover {
 }
 
 .btn {
-    background-color: blue;
+    background-color: #0160ff;
     color: white;
-    padding: 8px 10px;   
+    padding: 8px 20px;   
 }
 
 section#jumbotron {
@@ -91,7 +91,11 @@ section#jumbotron .text-wrapper {
 }
 
 section#jumbotron p {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+}
+
+section#jumbotron p.small {
+    font-size: .9rem;
 }
 
 section#jumbotron .btn {
@@ -100,6 +104,7 @@ section#jumbotron .btn {
 }
 
 section#jumbotron i {
+    padding-top: 15px;
     font-size: 45px;
 }
 
