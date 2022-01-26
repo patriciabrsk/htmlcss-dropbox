@@ -132,10 +132,17 @@ section#business .title {
 }
 
 section#business div.input-radio {
-    padding-top: 45px ;
+    padding-top: 50px ;
 }
 
-input {
-
+div.card {
+    width: 18rem;
 }
 
+section#business div.plans {
+    padding-top: 40px ;
+}
+
+section#business ul {
+    list-style: none;
+}
