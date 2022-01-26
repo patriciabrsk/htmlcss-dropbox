@@ -124,7 +124,7 @@ section#business {
 }
 
 section#business .container {
-    width: 0%;
+    width: 75%;
     padding-top: 200px;
     height: 100%;
 }
@@ -138,12 +138,10 @@ section#business div.input-radio {
 }
 
 div.card {
-    width: 22rem;
+    width: 21rem;
     border: 1px solid lightgrey;
-    padding: 20px;
+    padding: 20px 30px;
     height: 40rem;
-    background-color: rgb(255, 176, 58);
-    
 }
 
 section#business div.plans {
@@ -156,11 +154,20 @@ section#business ul {
     list-style: none;
     display: grid;
     gap: 20px;
+    padding: 45px 0 ;
 }
 
 section#business .button {
     padding: 10px 0;
     width: 100%
+}
+
+section#business .btn {
+    padding: 8px 43px;
+}
+
+section#business p.buy {
+    padding-top: 25px;
 }
 
 .card-header {
@@ -169,6 +176,16 @@ section#business .button {
     border-bottom: 1px solid lightgrey;
 }
 
+.middle-card {
+   margin: 0 20px;
+}
+
 .card-body {
     padding-top: 20px;
 }
+
+div.btn {
+    padding: 20px;
+}
+
+
