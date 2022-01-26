@@ -22,6 +22,11 @@ header {
     line-height: 80px;
 }
 
+footer {
+    height: 600px;
+    background-color: black;
+}
+
 header img {
     vertical-align: middle;
 }
@@ -43,6 +48,12 @@ a:hover {
     margin: 0 auto;
 }
 
+.large-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 90px 40px;
+}
+
 .navbar {
     margin-left: 20px;
 }
@@ -59,8 +70,7 @@ a:hover {
     background-color: blue;
     color: white;
     border-style: none;
-    padding: 6px 15px;
-    
+    padding: 8px 20px;   
 }
 
 section#jumbotron {
@@ -68,22 +78,34 @@ section#jumbotron {
     min-height: 600px;
 }
 
-section#jumbotron .container {
-    max-width: 1100px;
-    padding-top: 90px;
+section#jumbotron .large-container {
+    /* max-width: 1100px; */
+    /* padding: 90px 40px; */
+}
+
+section#jumbotron .jumbo-content {
+    padding-top: 45px;
 }
 
 section#jumbotron h1 {
-    font-size: 4rem;
+    font-size: 4.2rem;
     font-weight: 700;
 }
 
 section#jumbotron .text-wrapper {
-    padding-top: 45px;
+    width: 30%;
+}
+
+section#jumbotron p {
+    margin-bottom: 40px;
 }
 
 section#jumbotron .btn {
-    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section#jumbotron .jumbo-img {
+    width: 70%;
 }
 
 section#jumbotron img {
