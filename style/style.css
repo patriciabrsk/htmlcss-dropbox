@@ -49,9 +49,9 @@ a:hover {
 }
 
 .large-container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    padding: 90px 40px;
+    padding: 80px 0;
 }
 
 .navbar {
@@ -70,17 +70,13 @@ a:hover {
     background-color: blue;
     color: white;
     border-style: none;
-    padding: 8px 20px;   
+    padding: 8px 20px;  
+    display: inline-block; 
 }
 
 section#jumbotron {
     background-color: #b3d0e7;
-    min-height: 600px;
-}
-
-section#jumbotron .large-container {
-    /* max-width: 1100px; */
-    /* padding: 90px 40px; */
+    min-height: 500px;
 }
 
 section#jumbotron .jumbo-content {
@@ -93,7 +89,7 @@ section#jumbotron h1 {
 }
 
 section#jumbotron .text-wrapper {
-    width: 30%;
+    width: 32.2%;
 }
 
 section#jumbotron p {
@@ -104,12 +100,18 @@ section#jumbotron .btn {
     margin-bottom: 10px;
 }
 
+section#jumbotron i {
+    font-size: 50px;
+}
+
 section#jumbotron .jumbo-img {
-    width: 70%;
+    width: 67.8%;
 }
 
 section#jumbotron img {
     width: 900px;
+    padding-left: 30px;
+    position: static;
 }
 
 section#business {
