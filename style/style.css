@@ -177,16 +177,16 @@ section#business p.buy {
 }
 
 .middle-card {
-   margin: 0 20px;
+    margin: 0 20px;
 }
 
 .card-body {
     padding-top: 20px;
 }
 
-div.btn {
+/* div.btn {
     padding: 20px;
-}
+} */
 
 div.last-card {
     margin-top: 20px;
