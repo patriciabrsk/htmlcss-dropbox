@@ -79,8 +79,21 @@ a:hover {
 }
 
 .btn {
+    padding: 8px 20px;   
+    text-decoration: none;
+}
+
+.btn-blue {
     background-color: #0160ff;
     color: white;
+    padding: 8px 20px;   
+    text-decoration: none;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
     padding: 8px 20px;   
     text-decoration: none;
 }
@@ -166,6 +179,10 @@ section#business p.buy {
     padding-top: 25px;
 }
 
+div.plans {
+    margin-top: 35px;
+}
+
 .card-header {
     height: 40px;
     text-align: center;
@@ -190,10 +207,6 @@ section#partner {
     width: 100%;
 }
 
-section#partner .small-container{
-
-}
-
 .partner-img img{
     width: 100%;
 }
@@ -204,8 +217,11 @@ section#partner .small-container{
 
 .partner-text {
     padding-top: 30px;
-    width: 45%;
+    width: 40%;
+}
 
+.partner-text p {
+    margin: 30px 0 40px;
 }
 
 
