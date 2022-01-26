@@ -31,7 +31,7 @@ header img {
     vertical-align: middle;
 }
 
-a {
+header a {
     text-decoration: none;
     padding: 0 20px;
     color: black;
@@ -70,6 +70,7 @@ a:hover {
     background-color: #0160ff;
     color: white;
     padding: 8px 20px;   
+    text-decoration: none;
 }
 
 section#jumbotron {
@@ -119,12 +120,13 @@ section#jumbotron img {
 }
 
 section#business {
-    height: 900px;
+    padding-bottom: 70px;
 }
 
 section#business .container {
     max-width: 900px;
     padding-top: 200px;
+    height: 100%;
 }
 
 section#business .title {
@@ -136,13 +138,37 @@ section#business div.input-radio {
 }
 
 div.card {
-    width: 18rem;
+    width: 22rem;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    height: 40rem;
+    background-color: rgb(255, 176, 58);
+    
 }
 
 section#business div.plans {
     padding-top: 40px ;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 section#business ul {
     list-style: none;
+    display: grid;
+    gap: 20px;
+}
+
+section#business .button {
+    padding: 10px 0;
+    width: 100%
+}
+
+.card-header {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.card-body {
+    padding-top: 20px;
 }
