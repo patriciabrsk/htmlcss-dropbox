@@ -247,11 +247,12 @@ section#center-grid h1 {
 div.flex {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 60px;
 }
 
 div.flex .col {
     width: 30%;
-    height: 700px;
+    height: 400px;
     background-color: greenyellow; 
 }
 
