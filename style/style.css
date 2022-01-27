@@ -192,6 +192,15 @@ section#business p.buy {
     padding-top: 25px;
 }
 
+section#business p.period {
+    color: grey;
+    font-size: 14px;
+}
+
+.card-price {
+    padding: 15px 0 10px;
+}
+
 div.plans {
     margin-top: 35px;
 }
