@@ -270,15 +270,35 @@ section#university a{
 
 section#university div.wrapper-flex {
     display: flex;
-    height: 500px;
+    height: 600px;
 }
 
-section#university div.side {
+section#university div.side-grid {
     width: 30%;
     background-color: rgb(248, 248, 107);
 }
 
-section#university div.center {
-    width: 40%;
+div.square {
+    width: 50%;
+    height: 50%;
+}
+
+div.logo-designit {
     background-color: greenyellow;
 }
+
+div.logo-asu {
+    background-color: red;
+}
+
+div.logo-uf {
+    background-color:burlywood;
+}
+
+section#university div.center-content {
+    width: 40%;
+    background-color: blue;
+}
+
+
+
