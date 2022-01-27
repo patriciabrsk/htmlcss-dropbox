@@ -62,7 +62,6 @@ a:hover {
 
 .small-container {
     width: 75%;
-    padding-top: 130px;
     margin: 0 auto;
     min-width: 1080px;
 }
@@ -145,6 +144,10 @@ section#jumbotron img {
     position: absolute;
 }
 
+section#business {
+    margin: 135px 0;
+}
+
 section#business .title {
     font-size: 2.5rem;
 }
@@ -211,6 +214,7 @@ div.last-card {
 
 section#partner {
     width: 100%;
+    margin-bottom: 90px;
 }
 
 .partner-img img{
@@ -232,27 +236,23 @@ section#partner {
 
 section#center-grid {
     height: 100%;
-    background-color: rgb(247, 178, 178);
+    margin-bottom: 100px;
+}
+
+section#center-grid h1 {
+    font-size: 35px;
+    padding-bottom: 60px;
 }
 
 div.flex {
     display: flex;
-    padding: 60px 0;
+    justify-content: space-between;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.col {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+div.flex .col {
+    width: 30%;
     height: 700px;
-    background-color: greenyellow;
+    background-color: greenyellow; 
 }
+
 
