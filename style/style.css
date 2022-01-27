@@ -250,8 +250,15 @@ div.flex {
 
 div.flex .col {
     width: 30%;
-    height: 400px;
-    background-color: greenyellow; 
+    height: 100%;
+}
+
+div.col img{
+    width: 100%;
+}
+
+div.col h2 {
+    padding: 15px 0;
 }
 
 section#university {
