@@ -268,11 +268,6 @@ section#university a{
     display: block;
 }
 
-/* section#university div.wrapper-flex {
-    display: flex;
-    height: 600px;
-} */
-
 section#university div.side-grid {
     width: 30%;
     background-color: rgb(248, 248, 107);
@@ -311,4 +306,32 @@ div.logo-topps {
     background-image: url("../img/designit.svg");
 }
 
+section#bottom-blue {
+    background-color: #b3d0e7;
+    height: 400px;
+}
 
+section#bottom-blue .small-container {
+    padding: 135px 0;
+}
+
+section#bottom-blue .title {
+    width: 50%;
+}
+
+section#bottom-blue h1 {
+    font-size: 2.5em;
+    color: #61092b;
+    font-weight: 700;
+}
+
+section#bottom-blue .button {
+    padding-top: 15px;
+}
+
+section#bottom-blue .btn-wide {
+    color: black;
+    background-color: white;
+    padding: 8px 60px; 
+    text-decoration: none;
+}
