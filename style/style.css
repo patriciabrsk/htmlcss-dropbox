@@ -98,6 +98,10 @@ a:hover {
     text-decoration: none;
 }
 
+.margin-bottom {
+    margin-bottom: 100px;
+}
+
 section#jumbotron {
     background-color: #b3d0e7;
     height: 720px;
@@ -212,11 +216,6 @@ div.last-card {
     height: 100%;
 }
 
-section#partner {
-    width: 100%;
-    margin-bottom: 90px;
-}
-
 .partner-img img{
     width: 100%;
 }
@@ -236,7 +235,6 @@ section#partner {
 
 section#center-grid {
     height: 100%;
-    margin-bottom: 100px;
 }
 
 section#center-grid h1 {
@@ -256,4 +254,8 @@ div.flex .col {
     background-color: greenyellow; 
 }
 
+section#university {
+    background-color: rgb(248, 248, 107);
+    height: 300px;
 
+}
