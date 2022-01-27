@@ -268,10 +268,10 @@ section#university a{
     display: block;
 }
 
-section#university div.wrapper-flex {
+/* section#university div.wrapper-flex {
     display: flex;
     height: 600px;
-}
+} */
 
 section#university div.side-grid {
     width: 30%;
@@ -280,19 +280,22 @@ section#university div.side-grid {
 
 div.square {
     width: 50%;
-    height: 50%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 div.logo-designit {
-    background-color: greenyellow;
+    background-image: url("../img/designit.svg");
 }
 
 div.logo-asu {
-    background-color: red;
+    background-image: url("../img/designit.svg");
 }
 
 div.logo-uf {
-    background-color:burlywood;
+    background-image: url("../img/designit.svg");
 }
 
 section#university div.center-content {
@@ -300,5 +303,12 @@ section#university div.center-content {
     background-color: blue;
 }
 
+.square img {
+    width: 100%;
+}
+
+div.logo-topps {
+    background-image: url("../img/designit.svg");
+}
 
 
