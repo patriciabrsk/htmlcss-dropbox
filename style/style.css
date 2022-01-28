@@ -170,6 +170,11 @@ div.card {
     height: 40rem;
 }
 
+.card-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
 section#business ul {
     list-style: none;
     display: grid;
@@ -415,7 +420,6 @@ section#faq .dropdown-content:hover {
 }
 
 footer {
-    height: 600px;
     background-color: black;
 }
 
@@ -437,3 +441,18 @@ footer {
     color: white;
     font-size: 14px;
 }
+
+footer .line {
+    border: .5px solid lightgrey;
+    width: 100px;
+    margin-top: 50px;
+}
+
+footer .lang {
+    color: lightgrey;
+}
+
+footer span {
+    font-size: 12px;
+}
+
