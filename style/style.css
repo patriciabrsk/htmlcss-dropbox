@@ -282,25 +282,56 @@ section#university div.side-grid {
     background-color: rgb(248, 248, 107);
 }
 
-div.top {
+section#university div.top {
     width:100%;
 }
 
-div.square {
+section#university div.square {
     width: 50%;
     height:200px;
     border:1px solid blue;
+}
 
+.logo-designit {
+    background-color: #a2d39b
+}
+
+.logo-asu {
+    background-color: #61092b;
+}
+
+.logo-uf{
+    background-color: #0093ce;
+}
+
+.logo-topps {
+    background-color: #ff1b1c;
+}
+
+.logo-bycicle {
+    background-color: #d5001f;
+}
+
+.logo-hearst {
+    background-color: #b3d0e7;
+}
+
+.logo-lplanet {
+    background-color: #0e2381;
+}
+
+.logo-clear {
+    background-color: #ffd72f;
 }
 
 section#university .center-content {
     width: 40%;
-    background-color: blue;
+    background-color: #f5f5f5;
     height:400px;
 }
 
 .square img {
-    width: 100%;
+    width: 60%;
     color: white;
     filter: invert(1);
 
