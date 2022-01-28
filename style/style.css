@@ -294,6 +294,7 @@ section#university div.square {
     width: 50%;
     height:200px;
     align-items: center;
+
 }
 
 .logo-designit {
@@ -384,4 +385,24 @@ section#bottom-blue .btn-wide {
     background-color: white;
     padding: 8px 60px; 
     text-decoration: none;
+}
+
+section#faq {
+    padding: 150px 0;
+}
+
+section#faq h1 {
+    padding-bottom: 15px;
+}
+
+section#faq .question {
+    padding: 50px 0 ;
+    line-height: 0;
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    
+}
+
+section#faq .dropdown-content {
+    display: none;
 }
