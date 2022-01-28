@@ -392,7 +392,8 @@ section#faq {
 }
 
 section#faq h1 {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    font-size: 30px;
 }
 
 section#faq .question {
