@@ -290,9 +290,9 @@ section#university div.top {
 
 section#university div.square {
     width: 50%;
-    height:200px;
-    align-items: center;
-
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
 }
 
 .logo-designit {
@@ -338,7 +338,7 @@ section#university .svg {
     width: 60%;
     color: white;
     filter: invert(1);
-    object-fit: contain;
+    vertical-align: middle;
 }
 
 section#university .designit {
