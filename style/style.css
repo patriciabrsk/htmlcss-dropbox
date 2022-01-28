@@ -27,11 +27,6 @@ header {
     background-color: #fff;
 }
 
-footer {
-    height: 600px;
-    background-color: black;
-}
-
 header img {
     vertical-align: middle;
 }
@@ -40,10 +35,6 @@ header a {
     text-decoration: none;
     padding: 0 20px;
     color: black;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 .container {
@@ -80,14 +71,21 @@ a:hover {
 
 .btn {
     padding: 8px 20px;   
-    text-decoration: none;
 }
 
-.btn-blue {
+a:hover {
+    text-decoration: underline;
+}
+
+a.btn-blue {
     background-color: #0160ff;
     color: white;
     padding: 8px 20px;   
     text-decoration: none;
+}
+
+.btn-blue:hover {
+    background-color: #3a7aff;
 }
 
 .btn-transparent {
@@ -410,4 +408,27 @@ section#faq .last {
 
 section#faq .dropdown-content {
     display: none;
+}
+
+section#faq .dropdown-content:hover {
+    display: none;
+}
+
+footer {
+    height: 600px;
+    background-color: black;
+}
+
+.ft-list {
+    color: white;
+}
+
+.ft-list li {
+    list-style-type: none;
+}
+
+.ft-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
 }
