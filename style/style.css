@@ -282,38 +282,33 @@ section#university div.side-grid {
     background-color: rgb(248, 248, 107);
 }
 
+div.top {
+    width:100%;
+}
+
 div.square {
     width: 50%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    height:200px;
+    border:1px solid blue;
+
 }
 
-div.logo-designit {
-    background-image: url("../img/designit.svg");
-}
-
-div.logo-asu {
-    background-image: url("../img/designit.svg");
-}
-
-div.logo-uf {
-    background-image: url("../img/designit.svg");
-}
-
-section#university div.center-content {
+section#university .center-content {
     width: 40%;
     background-color: blue;
 }
 
 .square img {
     width: 100%;
+    color: white;
+    filter: invert(1);
+
 }
 
-div.logo-topps {
-    background-image: url("../img/designit.svg");
-}
+
+
+
+
 
 section#bottom-blue {
     background-color: #b3d0e7;
