@@ -277,6 +277,10 @@ section#university a{
     display: block;
 }
 
+div.logos {
+    min-width: 1180px;
+}
+
 section#university div.side-grid {
     width: 30%;
     background-color: rgb(248, 248, 107);
@@ -289,6 +293,7 @@ section#university div.top {
 section#university div.square {
     width: 50%;
     height:200px;
+    align-items: center;
 }
 
 .logo-designit {
@@ -334,6 +339,7 @@ section#university .svg {
     width: 60%;
     color: white;
     filter: invert(1);
+    object-fit: contain;
 }
 
 section#university .designit {
