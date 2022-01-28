@@ -296,6 +296,7 @@ div.square {
 section#university .center-content {
     width: 40%;
     background-color: blue;
+    height:400px;
 }
 
 .square img {
