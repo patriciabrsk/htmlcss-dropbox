@@ -310,7 +310,8 @@ section#university div.square {
 }
 
 .logo-designit {
-    background-color: #a2d39b
+    background-color: #a2d39b;
+    box-shadow: inset 0px 0px 0px 10px #d0e9cd;
 }
 
 .logo-asu {
