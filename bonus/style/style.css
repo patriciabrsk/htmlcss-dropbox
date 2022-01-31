@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #fff;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+.nav-left a.link, .nav-right a.link {
+    text-decoration: none;
+    padding: 26px 20px;
+    color: black;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-left a.link:hover, .nav-right a.link:hover {
+    border-bottom: 3px solid grey;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.container {
+    width: 95%;
+    max-width: 1600px;
+    min-width: 1080px;
+    margin: 0 auto;
+}
+
+.large-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 90px 0;
+    min-width: 1180px;
+}
+
+.small-container {
+    width: 75%;
+    margin: 0 auto;
+    min-width: 1080px;
+}
+
+.navbar {
+    margin-left: 20px;
+}
+
+.nav-left, .nav-right {
+    overflow: hidden;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.btn {
+    padding: 8px 20px;   
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.btn-blue {
+    background-color: #0160ff;
+    color: white;
+    padding: 8px 20px;   
+    text-decoration: none;
+}
+
+.btn-blue:hover {
+    background-color: #3a7aff;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 8px 20px;   
+    text-decoration: none;
+}
+
+.margin-bottom {
+    margin-bottom: 100px;
+}
+
+section#jumbotron {
+    background-color: #b3d0e7;
+    height: 100%;
+}
+
+section#jumbotron .jumbo-content {
+    margin-top: 45px;
+}
+
+section#jumbotron h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+section#jumbotron .text-wrapper {
+    width: 32.2%;
+}
+
+section#jumbotron p {
+    margin-bottom: 30px;
+}
+
+section#jumbotron p.small {
+    font-size: .9rem;
+}
+
+section#jumbotron .btn {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+section#jumbotron i {
+    padding-top: 15px;
+    font-size: 45px;
+}
+
+section#jumbotron .jumbo-img {
+    width: 67.8%;
+}
+
+section#jumbotron img {
+    width: 825px;
+    padding-left: 30px;
+    position: absolute;
+}
+
+section#business {
+    margin: 135px 0;
+}
+
+section#business .title {
+    font-size: 2.5rem;
+}
+
+section#business div.input-radio {
+    padding-top: 55px;
+    margin-right: 20px;
+}
+
+section#business label {
+    padding-right: 20px;
+}
+
+div.card {
+    width: 32%;
+    border: 1px solid lightgrey;
+    padding: 20px 30px;
+    height: 1007px;
+}
+
+li i.fa-check {
+    color: #0160ff;
+}
+
+.card-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+section#business ul {
+    list-style: none;
+    display: grid;
+    gap: 20px;
+    padding: 45px 0 ;
+}
+
+section#business .button {
+    padding: 10px 0;
+    width: 100%
+}
+
+section#business .btn {
+    padding: 8px 43px;
+}
+
+section#business p.buy {
+    padding-top: 25px;
+}
+
+section#business p.period {
+    color: grey;
+    font-size: 14px;
+}
+
+.card-price {
+    padding: 15px 0 10px;
+}
+
+div.plans {
+    margin-top: 35px;
+}
+
+section#business .card-header {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+section#business .middle-card {
+    margin: 0 21px;
+}
+
+section#business .line-break{
+
+}
+
+.card-body {
+    padding-top: 20px;
+}
+
+div.last-card {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.partner-img img{
+    width: 100%;
+}
+
+.partner-img {
+    width: 55%;
+}
+
+.partner-text {
+    padding-top: 50px;
+    width: 40%;
+}
+
+.partner-text p {
+    margin: 30px 0 40px;
+}
+
+h1.title{
+    font-size: 35px;
+}
+
+section#center-grid h1 {
+    padding-bottom: 60px;
+}
+
+div.flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+div.flex .col {
+    width: 30%; 
+}
+
+div.col img{
+    width: 100%;
+}
+
+div.col h2 {
+    padding: 15px 0;
+}
+
+section#university a{
+    margin: 20px 0 40px;
+    display: block;
+}
+
+div.logos {
+    min-width: 1180px;
+}
+
+section#university div.side-grid {
+    width: 30%;
+    background-color: rgb(248, 248, 107);
+}
+
+section#university div.top {
+    width:100%;
+}
+
+section#university div.square {
+    width: 50%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.logo-designit {
+    background-color: #a2d39b;
+    box-shadow: inset 0px 0px 0px 10px #d0e9cd;
+}
+
+.logo-asu {
+    background-color: #61092b;
+}
+
+.logo-uf{
+    background-color: #0093ce;
+}
+
+.logo-topps {
+    background-color: #ff1b1c;
+}
+
+.logo-bycicle {
+    background-color: #d5001f;
+}
+
+.logo-hearst {
+    background-color: #b3d0e7;
+}
+
+.logo-lplanet {
+    background-color: #0e2381;
+}
+
+.logo-clear {
+    background-color: #ffd72f;
+}
+
+section#university .center-content {
+    width: 40%;
+    background-color: #f5f5f5;
+    height:400px;
+    padding: 40px;
+}
+
+section#university .svg {
+    width: 60%;
+    color: white;
+    filter: invert(1);
+    vertical-align: middle;
+}
+
+section#university .designit {
+    width: 140px;
+}
+
+div.line {
+    border: 1px solid lightgrey;
+    width:50px;
+    margin: 25px 0 40px;
+}
+
+p.author {
+    margin-top: 35px;
+}
+
+section#bottom-blue {
+    background-color: #b3d0e7;
+    height: 400px;
+}
+
+section#bottom-blue .small-container {
+    padding: 135px 0;
+}
+
+section#bottom-blue .title {
+    width: 50%;
+}
+
+section#bottom-blue h1 {
+    font-size: 2.5em;
+    color: #61092b;
+    font-weight: 700;
+}
+
+section#bottom-blue .button {
+    padding-top: 15px;
+}
+
+section#bottom-blue .btn-wide {
+    color: black;
+    background-color: white;
+    padding: 8px 60px; 
+    text-decoration: none;
+}
+
+section#faq {
+    padding: 150px 0;
+}
+
+section#faq h1 {
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+section#faq .question {
+    padding: 50px 0 ;
+    line-height: 0;
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    
+}
+
+section#faq .last {
+    border-bottom: 1px solid lightgrey;
+}
+
+section#faq .dropdown-content {
+    display: none;
+}
+
+section#faq .dropdown-content:hover {
+    display: none;
+}
+
+footer {
+    background-color: black;
+}
+
+.ft-list {
+    color: white;
+}
+
+.ft-list h3 {
+    padding-bottom: 20px;
+}
+
+.ft-list li {
+    list-style-type: none;
+    line-height: 1.8;
+}
+
+.ft-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+footer .line {
+    border: .5px solid lightgrey;
+    width: 100px;
+    margin-top: 50px;
+}
+
+footer .lang {
+    color: lightgrey;
+}
+
+footer span {
+    font-size: 12px;
+}
+
