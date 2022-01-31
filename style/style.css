@@ -31,14 +31,14 @@ header img {
     vertical-align: middle;
 }
 
-header a {
+.nav-left a.link, .nav-right a.link {
     text-decoration: none;
     padding: 26px 20px;
     color: black;
     border-bottom: 3px solid transparent;
 }
 
-.nav-left a:hover, .nav-right a:hover {
+.nav-left a.link:hover, .nav-right a.link:hover {
     border-bottom: 3px solid grey;
 }
 
